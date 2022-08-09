@@ -5,7 +5,7 @@
 //782 -> 2
 //918 -> 8
 
-Console.WriteLine("Введите чило: ");
+Console.WriteLine("Введите трехзначное чило: ");
 int num = Convert.ToInt32(Console.ReadLine());
 int count = num / 10;
 count = num % count;
