@@ -7,10 +7,10 @@
 
 int number = new Random().Next(100, 1000);
 
-int  RemoveSecond(int num);
+int  RemoveSecond(int number);
 {
-   int number1 = num / 100;
-   int number2 = num % 10;
+   int number1 = number / 100;
+   int number2 = number % 10;
    int nov = number1 * 10 + number2;
    return nov;
 }
