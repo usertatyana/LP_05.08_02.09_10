@@ -3,6 +3,7 @@
 //3 -> Среда
 //5 -> Пятница
 
+
 Console.WriteLine("Введите первое чило от 1 до 7: ");
 int a = Convert.ToInt32(Console.ReadLine());
 if (a == 1)
@@ -12,7 +13,7 @@ if (a == 1)
 else if (a == 2)
 {
     Console.WriteLine("Сегодня вторник");
-} 
+}
 else if (a == 3)
 {
     Console.WriteLine("Сегодня среда");
@@ -33,7 +34,7 @@ else if (a == 7)
 {
     Console.WriteLine("Сегодня воскресенье");
 }
-else 
+else
 {
     Console.WriteLine("Такого дня недели нет");
 }
