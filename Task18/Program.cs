@@ -16,4 +16,4 @@ while (cont == A)
     break;
 }
 
-Console.WriteLine(" A в натуральную степень B" );
+Console.WriteLine(" натуральную степень B " );
