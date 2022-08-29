@@ -15,3 +15,5 @@ while (cont == A)
     Console.Write(Math.Pow(A, B));
     break;
 }
+
+Console.WriteLine(" A в натуральную степень B" );
