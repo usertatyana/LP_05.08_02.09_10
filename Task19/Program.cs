@@ -3,17 +3,17 @@
 //452 -> 11
 //82 -> 10
 //9012 -> 12
-//Summa = 0;
-//for(i = 0; i < n; i++)
-//Summa = Summa + A[i];
 
 Console.WriteLine("Введите число: ");
-int n = Convert.ToInt32(Console.ReadLine());
-
+int number = Convert.ToInt32(Console.ReadLine());
 int sum = 0;
-for (int i = 1; i <= n; i++)
-{
-    sum += i;
-}
-Console.WriteLine($"Сумма чисел {n} + {n} + {n} = {sum}");
 
+    while (number > 0)
+    {
+        int num2 = number % 10;   // остаток от целочисленного деления
+        number = number / 10;  // целочисленное деление
+        sum = sum + num2;
+    }
+
+
+Console.WriteLine($"Сумма цифр: " + sum);
