@@ -12,8 +12,17 @@ int cont = A;
 
 while (cont == A)
 {
-    Console.Write(Math.Pow(A, B));
-    break;
+Console.Write(Math.Pow(A, B));
+break;
 }
 
-Console.WriteLine(" Натуральная степень B " );
+Console.WriteLine($" A в степени B равна: " + cont);
+
+
+
+// for (int i = 0; i < B; i++)
+// {
+   // cont = cont * A;
+//}
+
+// Console.WriteLine($"A в степени B равна: " + cont);
