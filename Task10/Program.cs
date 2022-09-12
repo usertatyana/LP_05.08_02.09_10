@@ -7,7 +7,7 @@
 
 int number = new Random().Next(100, 1000);
 
-int RemoveSecond(int number);
+int RemoveSecond(int number)
 {
     int number1 = number / 100;
     int number2 = number % 10;
